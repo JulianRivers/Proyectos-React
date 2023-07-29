@@ -4,7 +4,7 @@ import { GifGrid } from "./components/GifGrid";
 
 export const GifApp = () => {
 
-  const [categories, setCategories] = useState(['One punch', 'One piece']);
+  const [categories, setCategories] = useState(['One piece', 'Brawl Stars line']);
 
   const onAddCategory = (newCategory) => {
     if(categories.includes(newCategory)) return;
